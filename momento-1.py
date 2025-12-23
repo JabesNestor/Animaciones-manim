@@ -1,4 +1,4 @@
-import manium
+from manim import *
 
 class EsperanzaConRecuadros(Scene):
     def construct(self):
@@ -48,5 +48,6 @@ class EsperanzaConRecuadros(Scene):
             Write(cont_label)
         )
         self.wait(30)
+
 
 %manim -qm -v WARNING EsperanzaConRecuadros
